@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 .first{
-    border: 1px solid red;
     position:absolute;
     width: 1920px;
-    height: 900px; 
+     height: 900px;  
+     
 }
 .button1{
     display: flex;
@@ -53,7 +53,7 @@
     position:absolute;
     width: 118px;
     height: 20px;
-    top: 30px;
+    margin-top: 90px;
     left: 405px;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
@@ -67,7 +67,7 @@
     position:absolute;
     width: 107px;
     height: 20px;
-    top: 30px;
+    margin-top: 90px;
     left: 1408px;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
@@ -81,10 +81,12 @@
     border:1px solid #FFFFFF;
     border-left:none;
     border-right: none;
-    width:910px;
+    width:1110px;
     position:absolute;
-    top:70px;
-    left:505px;
+    margin-top:70px;
+    left:405px;
+    right: 405px;
+   
 }
 td{
     font-weight: 400px;
@@ -106,7 +108,7 @@ td{
 background: #282828;
 position: absolute;
 width: 1920px;
-height: 856px;
+ height: 856px; 
 left: 0px;
 top: 900px;
 
@@ -360,13 +362,155 @@ width: 255px;
     border: 1px solid #998431;
 
 }
-.fourthpart{
-    position: absolute;
-    width: 1920px;
-    height: 767px; 
-    top: 2794px;
-    background: black;
-}
+.fourthpart {
+ position: absolute;
+width: 1920px;
+height: 767px;
+left: 0px;
+top: 2794px;
+background: #282828;
+  }
+
+  .border5 {
+box-sizing: border-box;
+position: relative;
+width: 1110px;
+height: 538px;
+ top: 129px;
+left: 405px; 
+border: 3px solid #C4C4C4;
+  }
+
+  .registered {
+ width: 700px;
+height: 54px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 50px;
+gap: 10px;
+position: absolute;
+width: 700px;
+height: 74px;
+left: 198px;
+top: -40px;
+background: #282828;
+  }
+
+   .imagee3 {
+    position: relative;
+    width: 260px;
+    height: 200px;
+    left: 700px;
+    top: -200px;
+    border-radius: 0px;
+    background-color:#282828;
+
+  }
+
+  .imagee2 {
+    position: relative;
+    width: 260px;
+    height: 200px;
+     left:-80px; 
+    top: -200px;
+    border-radius: 0px;
+    background-color:#282828;
+
+  } 
+
+  .line5 {
+    position: relative;
+    width: 120px;
+    left: 480px;
+   color:  1px  #FFFFFF;
+   top: 60px;
+  }
+
+  .registrinf {
+    position: relative;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 80px;
+    padding-left: 275px;
+    padding-right: 290px;
+  }
+
+  .inputname {
+    position: relative;
+    height: 20px;
+    width: 254px;
+    left: 280px;
+    top: 160px;
+    border-radius: nullpx;
+  }
+
+  .nameln {
+   margin-top: 13px
+  }
+
+ .inputtel {
+  position: relative;
+  height: 20px;
+  width: 254px;
+  left: 560px;
+  top: 140px;
+  border-radius: nullpx;
+ }
+
+ .telln {
+  margin-top: 13px;
+ }
+
+ .inputlocation {
+  position: relative;
+    height: 20px;
+    width: 254px;
+    left: 280px;
+    top: 220px;
+    border-radius: nullpx;
+ }
+
+ .addln {
+  margin-top: 13px;
+  width: 540px;
+ }
+
+ .button5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  padding-left: 230px;
+  padding-right: 220px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 250px;
+  margin-left: 280px;
+ }
+
 .fifthpart{
 position: absolute;
 width: 1920px;
